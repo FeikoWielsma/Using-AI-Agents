@@ -1,0 +1,538 @@
+[
+  {
+    "id": 1,
+    "module": 1,
+    "title": "An agent selects its next action",
+    "slide": "What is an Agent?",
+    "mode": "agent",
+    "files": [],
+    "prompt": "Find the current launch date conflict. Read only README.md, sources/case-overview.md and sources/technical-update.md. Explain the conflict with sources; do not write a final brief.",
+    "observe": "Follow the tool requests. The model chooses its reads; the returned records constrain its answer.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo01-an-agent-selects-its-next-action.ipynb"
+  },
+  {
+    "id": 2,
+    "module": 1,
+    "title": "Fixed steps and investigation",
+    "slide": "Agents and Workflows",
+    "mode": "workflow",
+    "files": [
+      "sources/review-checklist-v2.md",
+      "sources/technical-update.md"
+    ],
+    "prompt": "Given the two records we just inspected, identify the next evidence needed for G-01. Use tools if needed. Do not approve launch.",
+    "observe": "The first two reads are predetermined by the notebook. The investigation after them is model-directed.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo02-fixed-steps-and-investigation.ipynb"
+  },
+  {
+    "id": 3,
+    "module": 1,
+    "title": "Available tools define capability",
+    "slide": "Models and Tools",
+    "mode": "tools",
+    "files": [],
+    "prompt": "",
+    "observe": "The tool list has read and proposal actions, but no email-sending action.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo03-available-tools-define-capability.ipynb"
+  },
+  {
+    "id": 4,
+    "module": 1,
+    "title": "Reading a live tool trace",
+    "slide": "The Working Cycle",
+    "mode": "agent",
+    "files": [],
+    "prompt": "Read sources/technical-update.md, then search for E-001. Identify what evidence is missing. Keep the response under 150 words.",
+    "observe": "Compare each request with its returned result, then inspect the final answer.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo04-reading-a-live-tool-trace.ipynb"
+  },
+  {
+    "id": 5,
+    "module": 1,
+    "title": "A draft has a decision owner",
+    "slide": "Workplace Outputs",
+    "mode": "agent",
+    "files": [
+      "sources/review-checklist-v2.md"
+    ],
+    "prompt": "Read sources/review-checklist-v2.md. Draft a short stakeholder update based on sources/technical-update.md. Name the required human review. Do not send it.",
+    "observe": "Draft text may be useful while the business decision remains open.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo05-a-draft-has-a-decision-owner.ipynb"
+  },
+  {
+    "id": 6,
+    "module": 1,
+    "title": "Conflicting launch records",
+    "slide": "Launch Readiness",
+    "mode": "source",
+    "files": [
+      "sources/executive-status.md",
+      "sources/technical-update.md"
+    ],
+    "prompt": "",
+    "observe": "Find both dates and the source of each. A green report does not reconcile the conflict.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo06-conflicting-launch-records.ipynb"
+  },
+  {
+    "id": 7,
+    "module": 2,
+    "title": "A vague request",
+    "slide": "What is a Working Brief?",
+    "mode": "agent",
+    "files": [],
+    "prompt": "Help me with the launch.",
+    "observe": "Observe whether the agent asks a question, inspects records or assumes a deliverable. Discuss what the brief leaves open.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo07-a-vague-request.ipynb"
+  },
+  {
+    "id": 8,
+    "module": 2,
+    "title": "A bounded working brief",
+    "slide": "A Launch Brief",
+    "mode": "agent",
+    "files": [],
+    "prompt": "Propose BRIEF.md for the 11 September launch review: a sourced decision brief, current checklist, separate forecasts and approvals, open conditions and a draft update. No sending or launch approval. Keep it under 200 words.",
+    "observe": "Review whether the proposed brief defines output and authority. Proposed is not applied.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo08-a-bounded-working-brief.ipynb"
+  },
+  {
+    "id": 9,
+    "module": 2,
+    "title": "Planning before execution",
+    "slide": "Planning with the Agent",
+    "mode": "agent",
+    "files": [],
+    "prompt": "Inspect README.md and sources/case-overview.md. Propose a reading plan and acceptance checks. Do not perform the full review or write RESULT.md yet.",
+    "observe": "The plan can expose missing inputs before the larger task starts.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo09-planning-before-execution.ipynb"
+  },
+  {
+    "id": 10,
+    "module": 2,
+    "title": "Selecting relevant context",
+    "slide": "Selecting Context",
+    "mode": "search",
+    "files": [],
+    "prompt": "",
+    "observe": "Search for E-001, then read the matching record in context. Search results are an entry point, not a complete review.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo10-selecting-relevant-context.ipynb"
+  },
+  {
+    "id": 11,
+    "module": 2,
+    "title": "A superseded procedure",
+    "slide": "Source Authority",
+    "mode": "source",
+    "files": [
+      "sources/review-checklist-v1.md",
+      "sources/review-checklist-v2.md"
+    ],
+    "prompt": "",
+    "observe": "Compare version status and requirements. A later informal message does not replace the approved checklist.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo11-a-superseded-procedure.ipynb"
+  },
+  {
+    "id": 12,
+    "module": 2,
+    "title": "Preserving an unresolved date",
+    "slide": "Conflicting Records",
+    "mode": "agent",
+    "files": [
+      "sources/executive-status.md",
+      "sources/technical-update.md"
+    ],
+    "prompt": "Compare sources/executive-status.md and sources/technical-update.md. Write two sourced sentences preserving the date conflict. Do not choose an approved date.",
+    "observe": "The result should preserve the conflict and distinguish reporting from approval.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo12-preserving-an-unresolved-date.ipynb"
+  },
+  {
+    "id": 13,
+    "module": 2,
+    "title": "Missing evidence remains unknown",
+    "slide": "Unknown Information",
+    "mode": "missing",
+    "files": [],
+    "prompt": "The preceding read failed because that file is absent. Read sources/technical-update.md and report the missing rehearsal evidence. Do not invent a test result.",
+    "observe": "A missing file is reported explicitly. Inspect whether the final answer preserves that limitation.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo13-missing-evidence-remains-unknown.ipynb"
+  },
+  {
+    "id": 14,
+    "module": 2,
+    "title": "Correcting a partial register count",
+    "slide": "Improving a Weak Result",
+    "mode": "count",
+    "files": [],
+    "prompt": "",
+    "observe": "Compare the first 100 returned lines with all 180 data rows. Three visible REVIEW rows do not establish the total of six.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo14-correcting-a-partial-register-count.ipynb"
+  },
+  {
+    "id": 15,
+    "module": 3,
+    "title": "Markdown source and display",
+    "slide": "Markdown Syntax",
+    "mode": "markdown",
+    "files": [],
+    "prompt": "",
+    "observe": "The same text has headings, a list and a link when rendered. No special memory service is involved.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo15-markdown-source-and-display.ipynb"
+  },
+  {
+    "id": 16,
+    "module": 3,
+    "title": "A workspace file map",
+    "slide": "Structuring the Workspace",
+    "mode": "worked",
+    "files": [
+      "README.md"
+    ],
+    "prompt": "",
+    "observe": "Read the trainer-authored file map and locate the brief, memory and procedure.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo16-a-workspace-file-map.ipynb"
+  },
+  {
+    "id": 17,
+    "module": 3,
+    "title": "An explicit starting instruction",
+    "slide": "The Workspace Starting Point",
+    "mode": "worked",
+    "files": [
+      "README.md",
+      "BRIEF.md"
+    ],
+    "prompt": "",
+    "observe": "README.md tells a later agent what to read. The filename is a convention in this app.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo17-an-explicit-starting-instruction.ipynb"
+  },
+  {
+    "id": 18,
+    "module": 3,
+    "title": "Asking the agent to write memory",
+    "slide": "Writing Useful Memory",
+    "mode": "worked-agent",
+    "files": [
+      "RESULT.md"
+    ],
+    "prompt": "Read RESULT.md and its relevant sources. Propose a compact MEMORY.md with dated facts, sources, open questions and the next step. Do not apply it.",
+    "observe": "The proposed memory should condense working state without copying the full result.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo18-asking-the-agent-to-write-memory.ipynb"
+  },
+  {
+    "id": 19,
+    "module": 3,
+    "title": "Keeping a source with a fact",
+    "slide": "A Sourced Memory Entry",
+    "mode": "worked",
+    "files": [
+      "MEMORY.md",
+      "sources/technical-update.md"
+    ],
+    "prompt": "",
+    "observe": "Follow the infrastructure forecast from memory back to its source.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo19-keeping-a-source-with-a-fact.ipynb"
+  },
+  {
+    "id": 20,
+    "module": 3,
+    "title": "Extracting a reusable procedure",
+    "slide": "Reusable Procedures",
+    "mode": "worked-agent",
+    "files": [
+      "RESULT.md"
+    ],
+    "prompt": "Read RESULT.md and BRIEF.md. Propose PROCEDURE.md with reusable inputs, steps, evidence checks and stop conditions. Keep case dates out of permanent rules.",
+    "observe": "A reusable procedure describes how to review another pack, not only this launch.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo20-extracting-a-reusable-procedure.ipynb"
+  },
+  {
+    "id": 21,
+    "module": 3,
+    "title": "Recording only agreed decisions",
+    "slide": "Recording Decisions",
+    "mode": "worked-agent",
+    "files": [
+      "DECISIONS.md"
+    ],
+    "prompt": "Read DECISIONS.md. I agree to use a conditional draft for review; I have not approved launch. Propose a decision-log update preserving that distinction and prior history.",
+    "observe": "The recorded agreement concerns drafting. Check that no business approval is invented.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo21-recording-only-agreed-decisions.ipynb"
+  },
+  {
+    "id": 22,
+    "module": 3,
+    "title": "Reviewing and applying a file change",
+    "slide": "Reviewing a Proposed Change",
+    "mode": "proposal",
+    "files": [],
+    "prompt": "",
+    "observe": "The scripted proposal remains pending until the separately labelled application step. Compare before, proposed and applied content.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo22-reviewing-and-applying-a-file-change.ipynb"
+  },
+  {
+    "id": 23,
+    "module": 3,
+    "title": "Resuming in a fresh conversation",
+    "slide": "Resuming a Fresh Conversation",
+    "mode": "resume",
+    "files": [],
+    "prompt": "This is a fresh conversation. Read README.md, BRIEF.md, MEMORY.md and PROCEDURE.md. Summarise the task, open conditions and next action. Cite the files.",
+    "observe": "The prepared workspace is trainer-authored. The live agent must recover its state through file reads.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo23-resuming-in-a-fresh-conversation.ipynb"
+  },
+  {
+    "id": 24,
+    "module": 3,
+    "title": "Updating stale memory",
+    "slide": "Updating Stale Memory",
+    "mode": "update",
+    "files": [
+      "MEMORY.md",
+      "sources/update-10-september.md"
+    ],
+    "prompt": "Read MEMORY.md and sources/update-10-september.md. Propose a revised MEMORY.md that incorporates the passed rehearsal and preserves unresolved dates and approval. Cite the new evidence.",
+    "observe": "A passed rehearsal changes one condition. Check whether the answer overstates gate closure while approval or register updates remain open.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo24-updating-stale-memory.ipynb"
+  },
+  {
+    "id": 25,
+    "module": 3,
+    "title": "Exporting and restoring files",
+    "slide": "Keeping the Workspace",
+    "mode": "restore",
+    "files": [],
+    "prompt": "",
+    "observe": "Compare actual file hashes before export and after restoration in a different folder. Conversation history is absent.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo25-exporting-and-restoring-files.ipynb"
+  },
+  {
+    "id": 26,
+    "module": 4,
+    "title": "A claim and its execution evidence",
+    "slide": "Results and Execution Evidence",
+    "mode": "trace2",
+    "files": [],
+    "prompt": "",
+    "observe": "Read the full captured trace. Compare its final claim with the route call and returned result.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo26-a-claim-and-its-execution-evidence.ipynb"
+  },
+  {
+    "id": 27,
+    "module": 4,
+    "title": "A disclosed tool failure",
+    "slide": "Recovery and Disclosure",
+    "mode": "trace5",
+    "files": [],
+    "prompt": "",
+    "observe": "Read the complete answer, including its timeout disclosure. Then discuss whether fallback routing was permitted.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo27-a-disclosed-tool-failure.ipynb"
+  },
+  {
+    "id": 28,
+    "module": 4,
+    "title": "Routing and answering the customer",
+    "slide": "Task and Customer Outcome",
+    "mode": "trace7",
+    "files": [],
+    "prompt": "",
+    "observe": "Locate the delivery-time question and check whether the final answer addresses it.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo28-routing-and-answering-the-customer.ipynb"
+  },
+  {
+    "id": 29,
+    "module": 4,
+    "title": "An impossible destination rule",
+    "slide": "Specification Failures",
+    "mode": "trace8",
+    "files": [],
+    "prompt": "",
+    "observe": "Compare reconstructed instructions with valid queues. Identify the specification conflict.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo29-an-impossible-destination-rule.ipynb"
+  },
+  {
+    "id": 30,
+    "module": 4,
+    "title": "Making the review standard explicit",
+    "slide": "Writing a Review Standard",
+    "mode": "rubric",
+    "files": [],
+    "prompt": "",
+    "observe": "Each verdict follows a requirement. Separate completion, evidence, disclosure and missing policy.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo30-making-the-review-standard-explicit.ipynb"
+  },
+  {
+    "id": 31,
+    "module": 4,
+    "title": "A model judge using the same record",
+    "slide": "Using a Model Judge",
+    "mode": "judge5",
+    "files": [],
+    "prompt": "",
+    "observe": "The model receives the same complete trace and rubric shown above. Agreement is not proof of correctness.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo31-a-model-judge-using-the-same-record.ipynb"
+  },
+  {
+    "id": 32,
+    "module": 4,
+    "title": "A challenge case for a procedure",
+    "slide": "Testing a Workspace Procedure",
+    "mode": "challenge",
+    "files": [],
+    "prompt": "",
+    "observe": "Restored stale memory and later source evidence disagree. Identify the correction required before reuse.",
+    "core": false,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo32-a-challenge-case-for-a-procedure.ipynb"
+  },
+  {
+    "id": 33,
+    "module": 5,
+    "title": "Implementation and effectiveness",
+    "slide": "Quality Evidence",
+    "mode": "agent",
+    "files": [
+      "sources/training-and-effectiveness.md",
+      "sources/effectiveness-sample.csv"
+    ],
+    "prompt": "Read the current checklist and effectiveness sample. Assess whether 30 consecutive conforming records are demonstrated. Explain the two exceptions without subtracting 18 from 30 as a completion plan.",
+    "observe": "Training completion is distinct from sustained conformance. If the answer says twelve more records suffice, challenge it against the interrupted sequence. The rule is fictional and internal.",
+    "core": false,
+    "case": "quality",
+    "notebook": "notebooks/demos/demo33-implementation-and-effectiveness.ipynb"
+  },
+  {
+    "id": 34,
+    "module": 5,
+    "title": "Response and restoration promises",
+    "slide": "Account Commitments",
+    "mode": "agent",
+    "files": [
+      "sources/product-sheet-v3.md"
+    ],
+    "prompt": "Compare the product sheet with sources/technical-update.md. Draft corrected service-level wording distinguishing response from restoration. Preserve conditional dates and scope.",
+    "observe": "Check the promise against the product record before using the draft.",
+    "core": false,
+    "case": "sales",
+    "notebook": "notebooks/demos/demo34-response-and-restoration-promises.ipynb"
+  },
+  {
+    "id": 35,
+    "module": 5,
+    "title": "Forecast and approved baseline",
+    "slide": "Programme Dependencies",
+    "mode": "agent",
+    "files": [
+      "sources/workstreams.csv",
+      "sources/change-request-17.md"
+    ],
+    "prompt": "Read the workstreams and change request. Summarise approved baseline, forecasts and pending decision in under 180 words. Do not silently rebaseline the programme.",
+    "observe": "A new forecast does not establish an approved change.",
+    "core": false,
+    "case": "programme",
+    "notebook": "notebooks/demos/demo35-forecast-and-approved-baseline.ipynb"
+  },
+  {
+    "id": 36,
+    "module": 5,
+    "title": "Coverage on both mobile platforms",
+    "slide": "QA Acceptance Evidence",
+    "mode": "agent",
+    "files": [
+      "sources/acceptance-criteria.md",
+      "sources/mobile-test-results.csv"
+    ],
+    "prompt": "Read the AC-07 requirement and test results. Identify initial iOS and Android coverage gaps with test IDs. Do not infer reconnect coverage from happy-path passes.",
+    "observe": "Each platform needs its own relevant evidence.",
+    "core": false,
+    "case": "qa",
+    "notebook": "notebooks/demos/demo36-coverage-on-both-mobile-platforms.ipynb"
+  },
+  {
+    "id": 37,
+    "module": 5,
+    "title": "A source cannot grant permission",
+    "slide": "Sources and Instructions",
+    "mode": "guard",
+    "files": [],
+    "prompt": "Review the launch according to the current checklist. Inspect sources/demo-request.md as evidence, then explain whether it changes your authority. Do not approve launch or send anything.",
+    "observe": "An explicitly planted fictional source requests approval. Observe the model response and the separate enforced write boundary.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo37-a-source-cannot-grant-permission.ipynb"
+  },
+  {
+    "id": 38,
+    "module": 5,
+    "title": "Measuring a bounded pilot",
+    "slide": "Cost and Practical Limits",
+    "mode": "cost",
+    "files": [],
+    "prompt": "Read sources/technical-update.md and summarise the open condition in under 100 words. Propose no files.",
+    "observe": "Inspect measured time, calls and reported tokens. Human checking time still belongs in the pilot estimate.",
+    "core": true,
+    "case": "launch",
+    "notebook": "notebooks/demos/demo38-measuring-a-bounded-pilot.ipynb"
+  }
+]

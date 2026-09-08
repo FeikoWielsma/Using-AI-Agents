@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Tools that do useful things",
+    "minutes": 12,
+    "mode": "tools",
+    "demo": "A team outing becomes a working Excel comparison",
+    "demo_minutes": 5,
+    "scenario": "Six fictional activities, six different prices. Organise an outing for eight people.",
+    "prompt": "Find two indoor activities for eight people costing at most EUR 300 in total. Use the catalogue and quote tools, then create an Excel comparison with formulas and a chart.",
+    "steps": [
+      "Run the request and inspect the comparison in the browser.",
+      "Change the group size in the browser preview and see the totals update.",
+      "Ask the agent for a different budget or indoor preference and compare the result."
+    ],
+    "outcome": "One usable spreadsheet and one change you requested.",
+    "stretch": "Ask for a three-slide pitch using the same recommendation in a trainer harness with presentation tools.",
+    "takeaway": "The model chooses tools. Tools search, calculate and create the output."
+  },
+  {
+    "id": 2,
+    "title": "Connecting services with MCP",
+    "minutes": 10,
+    "mode": "mcp",
+    "demo": "An appointment appears in the course calendar",
+    "demo_minutes": 5,
+    "scenario": "A fictional fitness diary and a connected calendar. No personal account is required.",
+    "prompt": "Inspect the fitness diary and calendar. Find a free 20-minute planning-review slot on Thursday 10 September 2026 after the business trip. Propose one event and wait for my review.",
+    "steps": [
+      "Select the Fitness diary scenario in this activity.",
+      "Connect with proposal access, run the request, and review the proposed appointment.",
+      "Approve and apply it, then inspect the calendar below."
+    ],
+    "outcome": "An appointment in your isolated course calendar.",
+    "stretch": "Switch to read-only access and ask for another appointment. Discuss what changes.",
+    "takeaway": "MCP connects a host to capabilities offered by a server. Access comes from credentials and policy."
+  },
+  {
+    "id": 3,
+    "title": "Agents working as a team",
+    "minutes": 12,
+    "mode": "team",
+    "demo": "Two specialists design a pop-up cafe together",
+    "demo_minutes": 5,
+    "scenario": "A pop-up cafe needs a menu for 20 visitors, within EUR 100 ingredient cost.",
+    "prompt": "Design a three-item pop-up cafe menu for 20 visitors within EUR 100 ingredient cost. Combine an appealing concept with a workable cost estimate. Include a vegan option.",
+    "steps": [
+      "Run with the two specialists and read their separate contributions.",
+      "Change the second specialist from operations to accessibility and run again.",
+      "Compare with a solo run. Discuss whether the extra agent helped."
+    ],
+    "outcome": "A menu proposal shaped by two separate agent runs.",
+    "stretch": "Give the specialists conflicting priorities and ask the coordinator to resolve the tradeoff.",
+    "takeaway": "Separate agents have separate contexts. Coordination can add useful perspectives and extra work."
+  },
+  {
+    "id": 4,
+    "title": "Guardrails and human decisions",
+    "minutes": 10,
+    "mode": "guardrails",
+    "demo": "A refund hits a limit, then waits for a person",
+    "demo_minutes": 5,
+    "scenario": "A fictional shop offers refunds up to EUR 50 for order SHOP-104. No money moves.",
+    "prompt": "Look up order SHOP-104 and propose a EUR 40 goodwill refund. Explain the reason in one sentence.",
+    "steps": [
+      "Ask for an EUR 80 refund and observe the enforced limit.",
+      "Request EUR 40, inspect the proposal, then reject it.",
+      "Run again, approve the new proposal and inspect the sandbox ledger."
+    ],
+    "outcome": "You have tried a blocked action, a rejection and an approval.",
+    "stretch": "Tell the agent to ignore the limit. The tool must still enforce it.",
+    "takeaway": "Instructions guide the model. Code enforces limits. A person decides at the approval point."
+  },
+  {
+    "id": 5,
+    "title": "Coding agents and their harnesses",
+    "minutes": 15,
+    "mode": "harness",
+    "demo": "A coding agent repairs a tiny calculator",
+    "demo_minutes": 7,
+    "scenario": "A calculator adds price and quantity instead of multiplying. The prepared checks fail.",
+    "prompt": "Repair the calculator so total(price, quantity) returns the order total. Read the project instructions, edit the expression, and run the checks. Keep the function name and use no dependencies.",
+    "steps": [
+      "Run the mini harness and try the repaired calculator.",
+      "Select the discount requirement and ask for the change.",
+      "Watch the trainer run the same starter in Codex, Claude Code or Antigravity CLI. Compare the visible controls."
+    ],
+    "outcome": "A repaired calculator and an understanding of what the harness supplies.",
+    "stretch": "Ask the trainer to use the starter ZIP in a coding harness and add a small browser interface. Student practice stays in the browser.",
+    "takeaway": "A harness manages tools, context, execution and permissions around the model."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "supplier": "Market Lane Foods",
+  "currency": "EUR",
+  "unit_prices_cents": {
+    "wrap": 50,
+    "falafel": 120,
+    "cheese": 70,
+    "fruit": 80,
+    "coffee": 60,
+    "milk": 50,
+    "oat_milk": 80
+  },
+  "delivery": "Before opening. Fictional orders arrive immediately after human approval.",
+  "availability": "Scenario updates in the caf\u00e9 override this base catalogue."
+}

@@ -1,0 +1,53 @@
+{
+  "service_records": [
+    {
+      "region": "North",
+      "case": "S01",
+      "response_hours": 4
+    },
+    {
+      "region": "North",
+      "case": "S02",
+      "response_hours": 6
+    },
+    {
+      "region": "South",
+      "case": "S03",
+      "response_hours": 8
+    },
+    {
+      "region": "South",
+      "case": "S04",
+      "response_hours": 10
+    },
+    {
+      "region": "West",
+      "case": "S05",
+      "response_hours": 3
+    },
+    {
+      "region": "West",
+      "case": "S06",
+      "response_hours": 5
+    }
+  ],
+  "account_pitch": {
+    "customer": "Fictional Cedar Retail",
+    "need": "Reliable connectivity for 12 shops",
+    "option_a": "Primary connection upgrade, EUR 180 per shop per month",
+    "option_b": "Primary upgrade plus backup connection, EUR 230 per shop per month",
+    "next_step": "Discuss two pilot shops at the next account meeting",
+    "constraint": "No uptime guarantees or contract commitments have been approved"
+  },
+  "mobile_flow": {
+    "app": "Fictional PocketBank training app",
+    "flow": "A customer starts a transfer, loses the connection and reconnects",
+    "requirements": [
+      "Preserve entered values",
+      "Prevent duplicate submission",
+      "Show the final transfer status",
+      "Support iOS and Android"
+    ],
+    "data": "Use fictional accounts only"
+  }
+}

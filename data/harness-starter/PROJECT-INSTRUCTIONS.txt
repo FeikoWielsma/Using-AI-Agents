@@ -1,0 +1,1 @@
+Keep total(price, quantity). Use Python standard library only. Run python -m unittest after changes. Keep changes inside this starter folder.

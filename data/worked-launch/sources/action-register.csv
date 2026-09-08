@@ -1,0 +1,81 @@
+id,owner,action,due,status
+A-001,Amir de Jong,Obtain E-001 and assess G-01,2026-09-10,OPEN
+A-002,Theo Smit,Reconcile dashboard and technical update,2026-09-10,OPEN
+A-003,Lotte Visser,Prepare conditional communication draft,2026-09-11,OPEN
+A-004,Amir de Jong,Complete supporting customer action 4,2026-09-11,CLOSED
+A-005,Theo Smit,Complete supporting launch action 5,2026-09-11,CLOSED
+A-006,Lotte Visser,Complete supporting rollback action 6,2026-09-11,CLOSED
+A-007,Amir de Jong,Complete supporting support action 7,2026-09-11,CLOSED
+A-008,Theo Smit,Complete supporting infrastructure action 8,2026-09-11,CLOSED
+A-009,Lotte Visser,Complete supporting customer action 9,2026-09-11,CLOSED
+A-010,Amir de Jong,Complete supporting launch action 10,2026-09-11,CLOSED
+A-011,Theo Smit,Complete supporting rollback action 11,2026-09-11,CLOSED
+A-012,Lotte Visser,Complete supporting support action 12,2026-09-11,CLOSED
+A-013,Amir de Jong,Complete supporting infrastructure action 13,2026-09-11,CLOSED
+A-014,Theo Smit,Complete supporting customer action 14,2026-09-11,CLOSED
+A-015,Lotte Visser,Complete supporting launch action 15,2026-09-11,CLOSED
+A-016,Amir de Jong,Complete supporting rollback action 16,2026-09-11,CLOSED
+A-017,Theo Smit,Complete supporting support action 17,2026-09-11,CLOSED
+A-018,Lotte Visser,Complete supporting infrastructure action 18,2026-09-11,CLOSED
+A-019,Amir de Jong,Complete supporting customer action 19,2026-09-11,CLOSED
+A-020,Theo Smit,Complete supporting launch action 20,2026-09-11,CLOSED
+A-021,Lotte Visser,Complete supporting rollback action 21,2026-09-11,CLOSED
+A-022,Amir de Jong,Complete supporting support action 22,2026-09-11,CLOSED
+A-023,Theo Smit,Complete supporting infrastructure action 23,2026-09-11,CLOSED
+A-024,Lotte Visser,Complete supporting customer action 24,2026-09-11,CLOSED
+A-025,Amir de Jong,Complete supporting launch action 25,2026-09-11,CLOSED
+A-026,Theo Smit,Complete supporting rollback action 26,2026-09-11,CLOSED
+A-027,Lotte Visser,Complete supporting support action 27,2026-09-11,CLOSED
+A-028,Amir de Jong,Complete supporting infrastructure action 28,2026-09-11,CLOSED
+A-029,Theo Smit,Complete supporting customer action 29,2026-09-11,CLOSED
+A-030,Lotte Visser,Complete supporting launch action 30,2026-09-11,CLOSED
+A-031,Amir de Jong,Complete supporting rollback action 31,2026-09-11,CLOSED
+A-032,Theo Smit,Complete supporting support action 32,2026-09-11,CLOSED
+A-033,Lotte Visser,Complete supporting infrastructure action 33,2026-09-11,CLOSED
+A-034,Amir de Jong,Complete supporting customer action 34,2026-09-11,CLOSED
+A-035,Theo Smit,Complete supporting launch action 35,2026-09-11,CLOSED
+A-036,Lotte Visser,Complete supporting rollback action 36,2026-09-11,CLOSED
+A-037,Amir de Jong,Complete supporting support action 37,2026-09-11,CLOSED
+A-038,Theo Smit,Complete supporting infrastructure action 38,2026-09-11,CLOSED
+A-039,Lotte Visser,Complete supporting customer action 39,2026-09-11,CLOSED
+A-040,Amir de Jong,Complete supporting launch action 40,2026-09-11,CLOSED
+A-041,Theo Smit,Complete supporting rollback action 41,2026-09-11,CLOSED
+A-042,Lotte Visser,Complete supporting support action 42,2026-09-11,CLOSED
+A-043,Amir de Jong,Complete supporting infrastructure action 43,2026-09-11,CLOSED
+A-044,Theo Smit,Complete supporting customer action 44,2026-09-11,CLOSED
+A-045,Lotte Visser,Complete supporting launch action 45,2026-09-11,CLOSED
+A-046,Amir de Jong,Complete supporting rollback action 46,2026-09-11,CLOSED
+A-047,Theo Smit,Complete supporting support action 47,2026-09-11,CLOSED
+A-048,Lotte Visser,Complete supporting infrastructure action 48,2026-09-11,CLOSED
+A-049,Amir de Jong,Complete supporting customer action 49,2026-09-11,CLOSED
+A-050,Theo Smit,Complete supporting launch action 50,2026-09-11,CLOSED
+A-051,Lotte Visser,Complete supporting rollback action 51,2026-09-11,CLOSED
+A-052,Amir de Jong,Complete supporting support action 52,2026-09-11,CLOSED
+A-053,Theo Smit,Complete supporting infrastructure action 53,2026-09-11,CLOSED
+A-054,Lotte Visser,Complete supporting customer action 54,2026-09-11,CLOSED
+A-055,Amir de Jong,Complete supporting launch action 55,2026-09-11,CLOSED
+A-056,Theo Smit,Complete supporting rollback action 56,2026-09-11,CLOSED
+A-057,Lotte Visser,Complete supporting support action 57,2026-09-11,CLOSED
+A-058,Amir de Jong,Complete supporting infrastructure action 58,2026-09-11,CLOSED
+A-059,Theo Smit,Complete supporting customer action 59,2026-09-11,CLOSED
+A-060,Lotte Visser,Complete supporting launch action 60,2026-09-11,CLOSED
+A-061,Amir de Jong,Complete supporting rollback action 61,2026-09-11,CLOSED
+A-062,Theo Smit,Complete supporting support action 62,2026-09-11,CLOSED
+A-063,Lotte Visser,Complete supporting infrastructure action 63,2026-09-11,CLOSED
+A-064,Amir de Jong,Complete supporting customer action 64,2026-09-11,CLOSED
+A-065,Theo Smit,Complete supporting launch action 65,2026-09-11,CLOSED
+A-066,Lotte Visser,Complete supporting rollback action 66,2026-09-11,CLOSED
+A-067,Amir de Jong,Complete supporting support action 67,2026-09-11,CLOSED
+A-068,Theo Smit,Complete supporting infrastructure action 68,2026-09-11,CLOSED
+A-069,Lotte Visser,Complete supporting customer action 69,2026-09-11,CLOSED
+A-070,Amir de Jong,Complete supporting launch action 70,2026-09-11,CLOSED
+A-071,Theo Smit,Complete supporting rollback action 71,2026-09-11,CLOSED
+A-072,Lotte Visser,Complete supporting support action 72,2026-09-11,CLOSED
+A-073,Amir de Jong,Complete supporting infrastructure action 73,2026-09-11,CLOSED
+A-074,Theo Smit,Complete supporting customer action 74,2026-09-11,CLOSED
+A-075,Lotte Visser,Complete supporting launch action 75,2026-09-11,CLOSED
+A-076,Amir de Jong,Complete supporting rollback action 76,2026-09-11,CLOSED
+A-077,Theo Smit,Complete supporting support action 77,2026-09-11,CLOSED
+A-078,Lotte Visser,Complete supporting infrastructure action 78,2026-09-11,CLOSED
+A-079,Amir de Jong,Complete supporting customer action 79,2026-09-11,CLOSED
+A-080,Theo Smit,Complete supporting launch action 80,2026-09-11,CLOSED

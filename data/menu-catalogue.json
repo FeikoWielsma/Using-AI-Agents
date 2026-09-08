@@ -1,0 +1,1788 @@
+[
+  {
+    "item": "Overnight oats",
+    "category": "Breakfast",
+    "cost": 0.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Berry yoghurt pot",
+    "category": "Breakfast",
+    "cost": 1.1,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Apple cinnamon porridge",
+    "category": "Breakfast",
+    "cost": 0.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mushroom breakfast toast",
+    "category": "Breakfast",
+    "cost": 1.3,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 5,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Scrambled egg bagel",
+    "category": "Breakfast",
+    "cost": 1.7,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "egg"
+    ],
+    "prep_minutes": 6,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Avocado rye toast",
+    "category": "Breakfast",
+    "cost": 1.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 3,
+    "equipment": [
+      "toaster"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Banana peanut toast",
+    "category": "Breakfast",
+    "cost": 0.95,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "peanut"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "toaster"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Spinach egg muffin",
+    "category": "Breakfast",
+    "cost": 1.2,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "egg",
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Coconut chia pudding",
+    "category": "Breakfast",
+    "cost": 1.4,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Tomato breakfast beans",
+    "category": "Breakfast",
+    "cost": 0.85,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Falafel wrap",
+    "category": "Wraps and sandwiches",
+    "cost": 2.1,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cheese toastie",
+    "category": "Wraps and sandwiches",
+    "cost": 1.8,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "grill"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Hummus rainbow wrap",
+    "category": "Wraps and sandwiches",
+    "cost": 1.7,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chickpea salad sandwich",
+    "category": "Wraps and sandwiches",
+    "cost": 1.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chicken pesto ciabatta",
+    "category": "Wraps and sandwiches",
+    "cost": 2.65,
+    "vegan": false,
+    "vegetarian": false,
+    "allergens": [
+      "gluten",
+      "milk",
+      "nuts"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "grill"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Tuna cucumber sandwich",
+    "category": "Wraps and sandwiches",
+    "cost": 2.3,
+    "vegan": false,
+    "vegetarian": false,
+    "allergens": [
+      "gluten",
+      "fish",
+      "egg"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Roasted pepper focaccia",
+    "category": "Wraps and sandwiches",
+    "cost": 1.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 3,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mozzarella tomato panini",
+    "category": "Wraps and sandwiches",
+    "cost": 2.2,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "grill"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Smoky tofu baguette",
+    "category": "Wraps and sandwiches",
+    "cost": 2.05,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "grill"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Egg cress roll",
+    "category": "Wraps and sandwiches",
+    "cost": 1.6,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "egg"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Quinoa citrus salad",
+    "category": "Salads and cold bowls",
+    "cost": 2.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 5,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Greek salad",
+    "category": "Salads and cold bowls",
+    "cost": 2.1,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Lentil beetroot bowl",
+    "category": "Salads and cold bowls",
+    "cost": 1.6,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chickpea couscous bowl",
+    "category": "Salads and cold bowls",
+    "cost": 1.55,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Sesame noodle salad",
+    "category": "Salads and cold bowls",
+    "cost": 1.85,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "soy",
+      "sesame"
+    ],
+    "prep_minutes": 5,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chicken rice salad",
+    "category": "Salads and cold bowls",
+    "cost": 2.7,
+    "vegan": false,
+    "vegetarian": false,
+    "allergens": [],
+    "prep_minutes": 5,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Watermelon feta salad",
+    "category": "Salads and cold bowls",
+    "cost": 2.3,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Potato dill salad",
+    "category": "Salads and cold bowls",
+    "cost": 1.1,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "mustard"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "White bean rocket salad",
+    "category": "Salads and cold bowls",
+    "cost": 1.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Crunchy slaw bowl",
+    "category": "Salads and cold bowls",
+    "cost": 0.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "mustard"
+    ],
+    "prep_minutes": 3,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Red lentil curry",
+    "category": "Hot bowls",
+    "cost": 1.5,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 6,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Tofu teriyaki rice",
+    "category": "Hot bowls",
+    "cost": 2.05,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 6,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mushroom risotto",
+    "category": "Hot bowls",
+    "cost": 2.4,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 9,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Black bean chilli",
+    "category": "Hot bowls",
+    "cost": 1.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 6,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chicken coconut curry",
+    "category": "Hot bowls",
+    "cost": 2.8,
+    "vegan": false,
+    "vegetarian": false,
+    "allergens": [],
+    "prep_minutes": 7,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Roasted vegetable couscous",
+    "category": "Hot bowls",
+    "cost": 1.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 5,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Sweet potato chickpea stew",
+    "category": "Hot bowls",
+    "cost": 1.7,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 6,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Tomato basil pasta",
+    "category": "Hot bowls",
+    "cost": 1.25,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 5,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Spinach ricotta pasta",
+    "category": "Hot bowls",
+    "cost": 2.25,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 6,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Korean mushroom rice bowl",
+    "category": "Hot bowls",
+    "cost": 2.15,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "prep_minutes": 7,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Tomato lentil soup",
+    "category": "Soups",
+    "cost": 0.95,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Pumpkin coconut soup",
+    "category": "Soups",
+    "cost": 1.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Leek potato soup",
+    "category": "Soups",
+    "cost": 0.85,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Pea mint soup",
+    "category": "Soups",
+    "cost": 0.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mushroom cream soup",
+    "category": "Soups",
+    "cost": 1.45,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Carrot ginger soup",
+    "category": "Soups",
+    "cost": 1.0,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Minestrone",
+    "category": "Soups",
+    "cost": 1.3,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "celery"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chicken noodle soup",
+    "category": "Soups",
+    "cost": 1.9,
+    "vegan": false,
+    "vegetarian": false,
+    "allergens": [
+      "gluten",
+      "celery"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Harira chickpea soup",
+    "category": "Soups",
+    "cost": 1.4,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "celery"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Broccoli cheddar soup",
+    "category": "Soups",
+    "cost": 1.65,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Vegetable samosa",
+    "category": "Savoury snacks",
+    "cost": 0.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Spinach feta pastry",
+    "category": "Savoury snacks",
+    "cost": 1.15,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mini falafel pot",
+    "category": "Savoury snacks",
+    "cost": 0.95,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "sesame"
+    ],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Edamame cup",
+    "category": "Savoury snacks",
+    "cost": 1.05,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "soy"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Roasted chickpea cup",
+    "category": "Savoury snacks",
+    "cost": 0.65,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Olive herb cup",
+    "category": "Savoury snacks",
+    "cost": 0.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cheese cracker box",
+    "category": "Savoury snacks",
+    "cost": 1.4,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Vegetable sushi rolls",
+    "category": "Savoury snacks",
+    "cost": 1.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "prep_minutes": 6,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Hummus carrot pot",
+    "category": "Savoury snacks",
+    "cost": 0.85,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "sesame"
+    ],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mini chicken skewers",
+    "category": "Savoury snacks",
+    "cost": 2.05,
+    "vegan": false,
+    "vegetarian": false,
+    "allergens": [
+      "soy"
+    ],
+    "prep_minutes": 5,
+    "equipment": [
+      "grill"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Butter croissant",
+    "category": "Bakery",
+    "cost": 1.0,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Almond croissant",
+    "category": "Bakery",
+    "cost": 1.5,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg",
+      "nuts"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cinnamon swirl",
+    "category": "Bakery",
+    "cost": 1.2,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Vegan banana bread",
+    "category": "Bakery",
+    "cost": 0.95,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Blueberry muffin",
+    "category": "Bakery",
+    "cost": 1.1,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Lemon poppyseed muffin",
+    "category": "Bakery",
+    "cost": 1.05,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Savoury corn muffin",
+    "category": "Bakery",
+    "cost": 0.9,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Raisin oat scone",
+    "category": "Bakery",
+    "cost": 0.85,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "oats"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Rosemary focaccia square",
+    "category": "Bakery",
+    "cost": 0.75,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Sesame bagel",
+    "category": "Bakery",
+    "cost": 0.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Brownie",
+    "category": "Desserts",
+    "cost": 0.9,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Vegan chocolate brownie",
+    "category": "Desserts",
+    "cost": 1.15,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "soy"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Lemon cheesecake cup",
+    "category": "Desserts",
+    "cost": 1.6,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mango coconut rice pot",
+    "category": "Desserts",
+    "cost": 1.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Apple crumble cup",
+    "category": "Desserts",
+    "cost": 1.3,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "oats"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "oven"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Chocolate mousse cup",
+    "category": "Desserts",
+    "cost": 1.5,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Date cocoa energy bites",
+    "category": "Desserts",
+    "cost": 1.05,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "nuts"
+    ],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Strawberry oat slice",
+    "category": "Desserts",
+    "cost": 1.0,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "oats"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Orange polenta cake",
+    "category": "Desserts",
+    "cost": 1.35,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "egg",
+      "nuts"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Berry fruit jelly",
+    "category": "Desserts",
+    "cost": 0.8,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Fruit cup",
+    "category": "Fruit and light bites",
+    "cost": 1.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Whole apple",
+    "category": "Fruit and light bites",
+    "cost": 0.4,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 0,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Banana",
+    "category": "Fruit and light bites",
+    "cost": 0.35,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 0,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mandarin pair",
+    "category": "Fruit and light bites",
+    "cost": 0.5,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 0,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Melon mint cup",
+    "category": "Fruit and light bites",
+    "cost": 1.1,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Grape berry cup",
+    "category": "Fruit and light bites",
+    "cost": 1.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cucumber pepper sticks",
+    "category": "Fruit and light bites",
+    "cost": 0.75,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Trail mix cup",
+    "category": "Fruit and light bites",
+    "cost": 0.95,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "nuts",
+      "peanut"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Seed oat bar",
+    "category": "Fruit and light bites",
+    "cost": 0.85,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats",
+      "sesame"
+    ],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Apple peanut butter pot",
+    "category": "Fruit and light bites",
+    "cost": 0.95,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "peanut"
+    ],
+    "prep_minutes": 2,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Espresso",
+    "category": "Coffee and tea",
+    "cost": 0.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "espresso_machine"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Americano",
+    "category": "Coffee and tea",
+    "cost": 0.5,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "espresso_machine"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cappuccino",
+    "category": "Coffee and tea",
+    "cost": 0.85,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "espresso_machine"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Flat white",
+    "category": "Coffee and tea",
+    "cost": 0.95,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "espresso_machine"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Oat cappuccino",
+    "category": "Coffee and tea",
+    "cost": 1.05,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "espresso_machine"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Iced oat latte",
+    "category": "Coffee and tea",
+    "cost": 1.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats"
+    ],
+    "prep_minutes": 2,
+    "equipment": [
+      "espresso_machine"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "English breakfast tea",
+    "category": "Coffee and tea",
+    "cost": 0.3,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "kettle"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Fresh mint tea",
+    "category": "Coffee and tea",
+    "cost": 0.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "kettle"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Ginger lemon tea",
+    "category": "Coffee and tea",
+    "cost": 0.5,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "kettle"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Masala chai",
+    "category": "Coffee and tea",
+    "cost": 0.95,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 3,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Lemonade",
+    "category": "Cold drinks",
+    "cost": 0.5,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cucumber mint water",
+    "category": "Cold drinks",
+    "cost": 0.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Berry iced tea",
+    "category": "Cold drinks",
+    "cost": 0.65,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [
+      "fridge"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Orange juice",
+    "category": "Cold drinks",
+    "cost": 1.1,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Sparkling apple spritz",
+    "category": "Cold drinks",
+    "cost": 0.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 1,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Watermelon cooler",
+    "category": "Cold drinks",
+    "cost": 1.4,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "blender"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mango lime smoothie",
+    "category": "Cold drinks",
+    "cost": 1.75,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 3,
+    "equipment": [
+      "blender"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Berry oat smoothie",
+    "category": "Cold drinks",
+    "cost": 1.55,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats"
+    ],
+    "prep_minutes": 3,
+    "equipment": [
+      "blender"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Banana peanut smoothie",
+    "category": "Cold drinks",
+    "cost": 1.45,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "oats",
+      "peanut"
+    ],
+    "prep_minutes": 3,
+    "equipment": [
+      "blender"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Coconut iced cocoa",
+    "category": "Cold drinks",
+    "cost": 1.25,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 2,
+    "equipment": [
+      "blender"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mini mezze plate",
+    "category": "Sharing and event portions",
+    "cost": 2.9,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 5,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Cheese and fruit plate",
+    "category": "Sharing and event portions",
+    "cost": 3.2,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mediterranean vegetable skewers",
+    "category": "Sharing and event portions",
+    "cost": 1.55,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 4,
+    "equipment": [
+      "grill"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Mini taco trio",
+    "category": "Sharing and event portions",
+    "cost": 2.4,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [],
+    "prep_minutes": 5,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Loaded hummus flatbread",
+    "category": "Sharing and event portions",
+    "cost": 2.3,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Soup and bread combo",
+    "category": "Sharing and event portions",
+    "cost": 1.75,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "celery"
+    ],
+    "prep_minutes": 4,
+    "equipment": [
+      "hob"
+    ],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Kids picnic box",
+    "category": "Sharing and event portions",
+    "cost": 2.1,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Vegan picnic box",
+    "category": "Sharing and event portions",
+    "cost": 2.2,
+    "vegan": true,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "prep_minutes": 4,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Breakfast tasting trio",
+    "category": "Sharing and event portions",
+    "cost": 2.75,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 5,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  },
+  {
+    "item": "Afternoon tea portion",
+    "category": "Sharing and event portions",
+    "cost": 3.1,
+    "vegan": false,
+    "vegetarian": true,
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg"
+    ],
+    "prep_minutes": 5,
+    "equipment": [],
+    "serving": "one person",
+    "pricing_note": "Fictional EUR ingredient cost per portion; labour and overhead excluded"
+  }
+]
